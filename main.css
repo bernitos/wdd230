@@ -1,0 +1,53 @@
+
+body{
+font-size: 18px;
+line-height: 1.5;
+background-color: orangered;
+}
+header,nav,main,footer{
+margin:1.25rem auto;
+max-width: 500px;
+}
+
+footer, header{
+background-color: navy;
+color: #fff;
+text-align: center;
+}
+header{
+    padding:1.5rem;
+    border-radius: 10px 10px; 
+    box-shadow: 6px 6px 6px 6px  rgba(146, 139, 139, 0.301);
+
+}
+
+ img{
+    float: left;
+    margin:6px;
+    margin-top:0 auto;
+    position: relative;
+    height: 100px;
+    border:1px solid #000;
+}
+
+footer{
+background-color: navy;
+color: #fff;
+text-align: center; 
+padding: 0em;
+border-radius: 10px 10px;
+box-shadow: 6px 6px 6px 6px  rgba(146, 139, 139, 0.301);
+margin:1rem auto;
+
+
+}
+
+p{
+    font-style: italic;
+    text-align: center;
+    line-height :1.4em;
+    font-size:smaller;
+  
+
+}
+ 
