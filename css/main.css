@@ -2,7 +2,8 @@
 body{
 font-size: 18px;
 line-height: 1.5;
-background-color: #ffffff;
+background-color: #4d90dd; 
+
 }
 header,nav,main,footer{
 margin:1.25rem auto;
@@ -34,10 +35,10 @@ footer{
 background-color: navy;
 color: #fff;
 text-align: center; 
-padding: 0em;
+padding: 0.5em;
 border-radius: 10px 10px;
 box-shadow: 6px 6px 6px 6px  rgba(146, 139, 139, 0.301);
-margin:1rem auto;
+margin:1.5rem auto;
 
 
 }
