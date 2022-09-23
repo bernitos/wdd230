@@ -1,8 +1,11 @@
 
+*{
+    font-family: 'Gugi', sans-serif;
+}
 body{
 font-size: 18px;
 line-height: 1.5;
-background-color:#4d90dd; 
+background-color:#7ea9db; 
 
 }
 header,nav,main,footer{
@@ -41,6 +44,9 @@ box-shadow: 6px 6px 6px 6px  rgba(146, 139, 139, 0.301);
 margin:1.5rem auto;
 }
 
+h2 {
+    font-family: 'Gugi', sans-serif;
+}
 
 #lst-updt {
     padding-top: 5px;
