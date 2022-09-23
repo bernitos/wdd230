@@ -39,8 +39,14 @@ padding: 0.5em;
 border-radius: 10px 10px;
 box-shadow: 6px 6px 6px 6px  rgba(146, 139, 139, 0.301);
 margin:1.5rem auto;
+}
 
 
+#lst-updt {
+    padding-top: 5px;
+    display: block;
+    font-size: small;
+    color: #4d90dd;
 }
 
 p{
