@@ -10,7 +10,7 @@ background-color: #b4c1cf;
 }
 header,nav,main,footer{
 margin:1.25rem auto;
-max-width: 500px;
+max-width: 450px;
 }
 
 footer, header{
