@@ -1,0 +1,19 @@
+:root {
+    --main-color: navy;;
+    --secondary-color:lightblue;
+    --accent-color: rgb(61, 158, 190);
+    --default-light: #ffffff;
+    --default-dark: #160c0c;
+
+    --header-font: 'Edu NSW ACT Foundation', sans-serif;
+    --paragraph-font: 'Edu NSW ACT Foundation', sans-serif;
+}
+
+body {
+    grid-template-columns: auto 90% auto;
+}
+
+
+#typo-wrapper {
+    grid-template-columns: 1fr 1fr;
+}
