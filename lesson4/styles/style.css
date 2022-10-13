@@ -357,11 +357,7 @@ header img{
 
 
 
-.logo {
-	display: flex;
-	align-items: left;
-	margin-left: 1rem;
-}
+
 
 .logo img {
 	width: 80px;
