@@ -1,0 +1,144 @@
+.kis1 {
+    display: block;
+}
+.kis1 {
+    display: none;
+}
+h1 {
+    justify-self: start;
+}
+
+
+ul {
+    margin: 0;
+    padding-top: 10px;
+    width: calc(100% - 25px);
+    height: 74%;
+    overflow-y: auto;
+}
+
+body {
+    border-radius: 5px;
+    min-height: 220px;
+    height: 100%;
+    width: 90%;
+    max-width: 560px;
+    background-color: #b4c1cf;
+    margin: 0;
+}
+
+
+main {
+    width: 93%;
+    height: calc(75% - 5em - 6em - 4em + 5px);
+    margin: 2em 0 2em auto;
+    position: relative;
+}
+
+header > img {
+    width: 16%;
+    height:70%;
+    box-shadow: 1px 1px 10px rgb(51, 82, 218);
+    border-radius: 5px;
+    position: absolute;
+    align-items:left;
+    margin-right: 80%;
+    margin-top: 7.5%;
+     
+}
+
+
+header {
+    padding: 2em;
+    display: grid;
+    position: relative;
+    background-color: navy;
+    grid-template-columns: auto 20%;
+    grid-template-rows: 5em;
+    justify-items: center;
+    margin:0.5rem;
+   
+    z-index: 15;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+footer {
+    background-color: navy;
+    position: relative;
+    color: white;
+    padding: 2em;
+    padding-top: 2em;
+    border-radius: 5px 5px 5px 5px ;
+    text-align: center;
+    z-index: 10;
+    margin:0.1rem;
+
+}
+
+
+
+
+#scroll-down {
+    position: absolute;
+    transition: all 0.7s;
+    top: calc(100% + 40px);
+    background-color: rgba(0,0,0,0.8);
+    transform: translate(-50%,0);
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    color: white;
+    left: 50%;
+}
+#scroll-down.up {
+    top: calc(100%);
+
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+     
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: navy;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+span{
+    font-size:smaller;
+}
+
+
+.kis2 {
+    display: none;
+}
+.kis1 {
+    display: inline;
+}
+
+@media screen and (max-width: 405px) {
+    header {
+        grid-template-columns: auto 54.8px;
+    }
+    .brk2 {
+        display: block;
+    }
+    .unBrk2 {
+        display: none;
+    }
+    h2 {
+        text-align: center;
+    }
+    ul {
+        padding-left: 20px;
+        height: 80%;
+    }
+}
