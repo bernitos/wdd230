@@ -64,4 +64,34 @@ p{
     font-size:large;
   
 
-} 
+}
+
+
+
+#scroll-down {
+    position: absolute;
+    transition: all 0.4s;
+    top: calc(100% + 40px);
+    background-color: rgba(0,0,0,0.8);
+    transform: translate(-50%,0);
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    color: white;
+    left: 50%;
+}
+#scroll-down.up {
+    top: calc(100%);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: seagreen;
+    border-radius: 5px;
+}
+
