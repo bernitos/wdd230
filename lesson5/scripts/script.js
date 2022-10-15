@@ -1,3 +1,5 @@
+ 
+
 document.getElementsByClassName('last-updated')[0].innerHTML = "Last Updated: "+document.lastModified
 
 function toggleMenu() {
@@ -11,35 +13,26 @@ function toggleMenu() {
     }
 }
 
+if (new Date().getDay() == 5) {
+    document.getElementById("big-banner").style.display = "grid"
+}
+
+function closeBanner() {
+    document.getElementById("big-banner").style.display = "none"
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// select the elements to manipulate (output to)
-const datefield = document.querySelector(".date");
-const datefieldUS = document.querySelector("aside"); // for european/family history format with day first.
-
-// derive the current date using a date object
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
-	now
-);
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
-}).format(now);
-// long, medium, short options ... try them
-
-datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+/* For the 5-day weather forecast */
+var days = [
+    "Sun",
+    "Mon",
+    "Tues",
+    "Wed",
+    "Thurs",
+    "Fri",
+    "Sat"
+]
+var today = new Date().getDay()
+for (let i = 0; i<5; i++) {
+    document.getElementById("day"+(i+1)).innerHTML = days[(today+i)%days.length]
+}
