@@ -5,7 +5,9 @@
     display: none;
 }
 h1 {
-    justify-self: start;
+    justify-self: center;
+    display:grid;
+    grid-column: 3/4;
 }
 
 
