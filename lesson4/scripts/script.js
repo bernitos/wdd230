@@ -1,34 +1,63 @@
- document.getElementsByClassName('last-updated')[0].innerHTML = "Last Updated: "+document.lastModified
+const btn = document.querySelector("#hamBtn");
+const nav = document.querySelector("#headerNav");
 
-function toggleMenu() {
-    var temp = document.getElementsByClassName("toggler")[0]
-    temp.classList.toggle("hide")
-    if (temp.classList[1]=="hide") {
-        document.querySelector(".toggler > a").innerHTML = "&#9776; Menu"
-    }
-    else {
-        document.querySelector(".toggler > a").innerHTML = "&#10006; Close"
-    }
+btn.addEventListener("click", () => {
+  nav.classList.toggle("open");
+});
+
+let lastMod = document.querySelector("#lastMod");
+let date = document.querySelector(".date");
+let current = new Date();
+
+let mod = document.lastModified;
+let year = new Date().getFullYear();
+let currentDate = `${mod}`;
+
+function newDate(date){
+ return new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "full",
+}).format(date);
 }
+const formatDate = newDate(current)
 
-
+if (date) {
+  date.innerHTML = formatDate;
+  lastMod.innerHTML = `&copy; ${year} Marifa chamber of Commerce | Kissi A. Bernitos |Brigham Young University|<br> Last Modified: ${currentDate}`;
+}
  
+const day = current.getDay();
+const msg = document.querySelector("#msg");
 
+if (day == 1 || day == 2) {
+  msg.classList.add("show");
+} else {
+  msg.classList.add("hide");
+}
+ 
+let images = Array.from(document.querySelectorAll("img[data-src]"));
+const loadImages = (image) => {
+  image.setAttribute("src", image.getAttribute("data-src"));
+  image.onload = () => {
+    image.removeAttribute("data-src");
+  };
+};
 
-// select the elements to manipulate (output to)
-const datefield = document.querySelector(".date");
-const datefieldUS = document.querySelector("aside"); // for european/family history format with day first.
+if ("IntersectionObserver" in window) {
+  const observer = new IntersectionObserver((items, observer) => {
+    items.map((item) => {
+      if (item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target);
+      }
+    });
+  });
 
-// derive the current date using a date object
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
-	now
-);
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
-}).format(now);
-// long, medium, short options ... try them
-
-datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
-
+  images.map((img) => {
+    observer.observe(img);
+  });
+} else {
+  images.map((img) => {
+    load(img);
+  });
+}
+ 
