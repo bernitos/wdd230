@@ -1,38 +1,63 @@
+ const btn = document.querySelector("#hamBtn");
+const nav = document.querySelector("#headerNav");
+
+btn.addEventListener("click", () => {
+  nav.classList.toggle("open");
+});
+
+let lastMod = document.querySelector("#lastMod");
+let date = document.querySelector(".date");
+let current = new Date();
+
+let mod = document.lastModified;
+let year = new Date().getFullYear();
+let currentDate = `${mod}`;
+
+function newDate(date){
+ return new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "full",
+}).format(date);
+}
+const formatDate = newDate(current)
+
+if (date) {
+  date.innerHTML = formatDate;
+  lastMod.innerHTML = `&copy; ${year} Marifa chamber of Commerce | Kissi A. Bernitos |Brigham Young University|<br> Last Modified: ${currentDate}`;
+}
  
+const day = current.getDay();
+const msg = document.querySelector("#msg");
 
-document.getElementsByClassName('last-updated')[0].innerHTML = "Last Updated: "+document.lastModified
-
-function toggleMenu() {
-    var temp = document.getElementsByClassName("toggler")[0]
-    temp.classList.toggle("hide")
-    if (temp.classList[1]=="hide") {
-        document.querySelector(".toggler > a").innerHTML = "&#9776; Menu"
-    }
-    else {
-        document.querySelector(".toggler > a").innerHTML = "&#10006; Close"
-    }
+if (day == 1 || day == 2) {
+  msg.classList.add("show");
+} else {
+  msg.classList.add("hide");
 }
+ 
+let images = Array.from(document.querySelectorAll("img[data-src]"));
+const loadImages = (image) => {
+  image.setAttribute("src", image.getAttribute("data-src"));
+  image.onload = () => {
+    image.removeAttribute("data-src");
+  };
+};
 
-if (new Date().getDay() == 5) {
-    document.getElementById("big-banner").style.display = "grid"
+if ("IntersectionObserver" in window) {
+  const observer = new IntersectionObserver((items, observer) => {
+    items.map((item) => {
+      if (item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target);
+      }
+    });
+  });
+
+  images.map((img) => {
+    observer.observe(img);
+  });
+} else {
+  images.map((img) => {
+    load(img);
+  });
 }
-
-function closeBanner() {
-    document.getElementById("big-banner").style.display = "none"
-}
-
-
-/* For the 5-day weather forecast */
-var days = [
-    "Sun",
-    "Mon",
-    "Tues",
-    "Wed",
-    "Thurs",
-    "Fri",
-    "Sat"
-]
-var today = new Date().getDay()
-for (let i = 0; i<5; i++) {
-    document.getElementById("day"+(i+1)).innerHTML = days[(today+i)%days.length]
-}
+ 
