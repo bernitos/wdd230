@@ -1,0 +1,167 @@
+body{
+  font-family: 'Edu NSW ACT Foundation',cursive;;
+  background-color: #b4c1cf;;
+ 
+}
+html{
+  color: white;
+}
+
+@media only screen and (min-width: 64em) {
+  .limited {
+    grid-template-columns: 1fr 2fr 6fr 1fr;
+    margin: auto;
+  }
+  header h1.mit {
+    margin-left: 0;
+    text-align: left;
+  }
+  header #pic {
+    margin-left: 1em;
+  }
+  .date {
+    padding: 1%;
+  }
+  #hamBtn {
+    display: none;
+  }
+  #headerNav {
+    display: flex;
+    justify-content: center;
+  }
+  #headerNav a {
+    padding: 3.5em;
+  }
+  nav {
+    padding: 0;
+  } 
+main {
+  max-width: 57rem;
+  margin: auto;
+  padding: 1.5%;
+ 
+}
+#normalContent {
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 0.4em;
+    row-gap: 0.4em;
+  }  
+  #normalContent section:nth-of-type(1),
+  #normalContent section:nth-of-type(2),
+  #normalContent section:nth-of-type(3),
+  #normalContent section:nth-of-type(4),
+  #spot1,
+  #spot2,
+  #spot3,
+  #join {
+    margin: 0;
+  } 
+  #events { 
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  #normalContent section:nth-of-type(1) {
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 4;
+  } 
+  #hero {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  #hero2 {
+    display: block;
+    margin-top: 0.4em;
+    
+  }
+  #spot1 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  #normalContent section:nth-of-type(3) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  #normalContent section:nth-of-type(4) h2 {
+    padding-top: 2em;
+  }
+  #normalContent section:nth-of-type(4) p {
+    padding-bottom: 5em;
+  }
+  #spot2 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    
+  }
+  #join {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    padding-top: 5em;
+  }
+  #join h2 {
+    padding: 0.4em 2em;
+    margin: auto;
+  }
+  #join p {
+    padding-top: 5em;
+  }
+  #normalContent section:nth-of-type(4) {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    color:white;
+  }
+  #spot3 {
+    display: grid;
+    margin: 0.3%;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    
+  }
+ #spot3 h2 {
+   margin: 0;
+   color:white;
+ } 
+.max {
+  grid-template-columns: 1fr 1fr 60% 1fr;
+  max-width: 64rem;
+  margin: auto;
+} 
+  #joinH1 {
+    margin-top: 1em;
+  }
+  #joinContent {
+    max-width: 70em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #levelsBelow {
+    display: none;
+  }
+  #levelsSide {
+    display: inline;
+  }
+  #joinImg {
+    display: inline;
+    width: 19.3em;
+    margin: 0 auto;
+  } 
+  .grid {
+    max-width: 64rem;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid section:nth-child(3) p, .grid section:nth-child(3) a {
+    line-height: 0;
+  }
+  .grid section:nth-child(3) h2 {
+    margin: 0;
+  } 
+  .lst {
+    max-width: 64rem;
+    margin: auto;
+    
+  } 
+
+
+}  
