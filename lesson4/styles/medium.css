@@ -1,4 +1,4 @@
-body {
+ body {
     grid-template-columns: auto 90% auto;
 }
 body {
@@ -69,6 +69,7 @@ body {
           grid-area: 1 / 1 / 1 /3;
        width: 18.5em;
         background-color: #86d4f3; 
+        height: 8em;
        
     }
     
@@ -76,6 +77,9 @@ body {
       grid-area: 2/ 1 / 2/4; 
       background-color: #86d4f3;
       width: 18.5em;
+      height: 6em;
+      margin-top: 8.3em;
+  position: absolute;
   }
       
   .Spotlight-1 { 
@@ -83,7 +87,8 @@ body {
     background-color: #86d4f3;
     height:7em ;
     width: 7rem;
-   
+    margin-top: 99%;
+    position: absolute;
 }
   
   .Spotlight-2 { 
@@ -91,15 +96,18 @@ body {
     background-color: #86d4f3;
     width: 7rem;
     height:7em ;
+    margin-top: 99%;
+  position: absolute;
+  margin-left: 30%;
 }
 .Spotlight-3 { 
   grid-area: 3/ 4 / 3/ 3; 
   background-color: #86d4f3;
   width: 4em;
-  margin-left: 64%;
-  margin-top: 80.6%;
+  margin-left: 60%;
+  margin-top: 99%;
   position: absolute;
-  height:6.9em ;
+  height:7em ;
   width: 5.4em;
  padding-bottom: 0%;
 }
@@ -108,24 +116,28 @@ body {
   grid-area: 4 / 1 / 5 / 4; 
   background-color: #86d4f3;
   height: 7.5rem;
-  width:20.5rem ;
+  width:20.7rem ;
+  position: absolute;
+  margin-top: 67%;
 }
 .Event { 
   grid-area: 5 / 1 / 6 / 3; 
   background-color: #86d4f3;
-  height: 5rem;
+  height: 7.2rem;
   width: 13rem;
+  margin-top: 133%;
+  position: absolute;
     }
 .Weather { 
-grid-area: 5 / 3 / 6 / 4; 
+grid-area: 4 / 3 / 6 / 4; 
 background-color: #86d4f3;
 width:11rem ;
 position: absolute;
-height:5em ;
-width: 6.2em;
-
-margin-left: 59%;
-margin-top: 153.3%;
+height:5.5em ;
+width: 6.4em;
+padding-top:1rem;
+margin-left: 55%;
+margin-top: 133%;
  
     }
       
