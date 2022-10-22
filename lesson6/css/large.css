@@ -19,6 +19,9 @@ html{
   header #pic {
     margin-left: 1em;
   }
+  header p{
+    text-align: center;
+  }
   .date {
     padding: 1%;
   }
