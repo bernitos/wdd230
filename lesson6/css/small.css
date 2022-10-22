@@ -37,7 +37,7 @@ header {
     90deg,#dce1ec,#e0e3eb,
     #cdd1da,#dde2ec,#e6e8ee,
     #e1e5f1,
-  );
+  
   grid-column: 1/3;
   text-align: center;
   padding: 0.5em;
@@ -160,7 +160,7 @@ main section {
     #050502,
     #050502,
     #050502,
-  );
+  
   color: rgb(8, 0, 0);
   font-size: 2em;
   position: absolute;
