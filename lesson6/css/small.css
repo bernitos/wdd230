@@ -78,7 +78,7 @@ header #pic {
   height:40px;
 }
 header h1 {
-  text-align: left;
+  text-align: center;
   font-size: 1.5em;
   grid-column:2/4;
   grid-row: 1/2;
