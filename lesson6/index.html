@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en-us">
   <head>
 <meta charset="utf-8"/>
@@ -15,7 +15,7 @@
 
 </head>
   <body>
-<header><id="msg">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+<header><p id="msg">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
 <div class="limited">
 <div id="pic">
 <a href="index.html"><img
@@ -39,17 +39,18 @@ src="images/logomcc.png" alt="Marifa Chamber of Commerce Logo"/></a></div>
       </nav>
     </header>
     <main>
-  
 <div id="normalContent">
-<h1>Welcome to Marifa</h1>
-<section >
- 
+  <h1> </h1>
    
-<picture>
+<section >
+  <h2 id="heroP">Welcome Marifa</h2>
+  <picture>
    <source media="(max-width:400px") srcset="images/small.jpg">
    <source media="(max-width:800px") srcset="images/medium.jpg">
-   <source media="(max-width:1200px") srcset="images/large.jpg">  
+   <source media="(max-width:1200px") srcset="images/large.jpg">
+    
    <img src="images/wdd230-org.jpg"alt=" hero-original-pic "/>
+    
     
 </picture>             
 </section>
@@ -60,30 +61,24 @@ src="images/logomcc.png" alt="Marifa Chamber of Commerce Logo"/></a></div>
           <p>
             Marifa launches call for businesses to pilot new sustainability framework for trade transactions in 
             textiles sector, A month ahead of the start of this year's United Nations climate summit("COP27"), 
-            Marifa  Chamber of Commerce has launched a call to banks.<br />
+            Marifa  Chamber of Commerce has launched a call to banks.<br /> 
           </p>
         </section>
 
         <section id="rain">
-          <h2>Weather</h2>
-          <img src="images/thunderstorms.png" alt="weather">
-      
-          <div id="weather">
-            <div class="mainImg"></div>
-            <p><span id="temp">32</span> &#8457;</p>
-          </div>
-         
-            
-          <p class="currentWeather">
-            
-            <strong><span id="currentWeather"></span></strong>
-            
-          </p>
           
-          <p>Humidity: <span id="humidity"></span>83%</p>
-          <p>Wind Speed: <span id="speed"></span>2 ms</p>
-          <p>Wind Chill: <span id="chill"></span>9 mph</p>
-        </section>
+            <h3>Weather</h3>
+            
+            <img src="images/thunderstorms.png" alt="weather-image">
+              <ul>
+                <li >Temperature: <span id="temp">68</span>&deg;F</li>
+                <li >Wind: <span id="wind">3</span>mph</li>
+                <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+              </ul>
+              
+            
+        
+       </section>
 
         <section>
           <h2>News Release</h2>
@@ -143,6 +138,7 @@ src="images/logomcc.png" alt="Marifa Chamber of Commerce Logo"/></a></div>
 <p id="lastMod"></p></div>
 </footer>
 <script src="scripts/script.js" defer></script>
+<script src="scripts/windchill.js"></script>
 
 </body>
 </html>
