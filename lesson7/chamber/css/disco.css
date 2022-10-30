@@ -1,20 +1,21 @@
-  
+ 
+
 picture img {
     width: 300px;
     height: 150px;
-     object-fit: cover;
-   position: center;
+   
+    position: center;
     box-shadow: 2px 2px 4px #2f2f2f;
     grid-gap: 20px;
-    float: left;
-}
- 
-
-
-.title{
+    float:center;
+  }
+  
+  
+  
+  .title{
     color: black;
-}
-
+  }
+  
   .dis1 {
     display: grid;
     grid-column: 1/1;
@@ -22,107 +23,88 @@ picture img {
     background-color: rgb(207, 232, 220);
     border: 2px solid rgb(24, 39, 177);
     
-  }
-  
-  .dis2 {
-    display: grid;
-    grid-column: 1/1;
-    grid-row: 3;
-    background-color: rgb(207, 232, 220);
-    border: 2px solid rgb(24, 39, 177);
-  }
-  .dis3 {
-    display: grid;
-    grid-row: 1/1;
-    grid-column: 3;
-    background-color: rgb(207, 232, 220);
-    border: 2px solid rgb(24, 39, 177);
-   
-  }
-
-  
-  .dis4 {
-    display: grid;
-    grid-row: 1/1;
-    grid-column: 3;
-    background-color: rgb(207, 232, 220);
-    border: 2px solid rgb(24, 39, 177);
-   
-  }
-  
-  .dis5 {
-    display: grid;
-    grid-row: 1/1;
-    grid-column: 3;
-    background-color: rgb(207, 232, 220);
-    border: 2px solid rgb(24, 39, 177);
+    }
+    
+    .dis2 {
+      display: grid;
+      grid-column: 1/1;
+      grid-row: 3;
+      background-color: rgb(207, 232, 220);
+      border: 2px solid rgb(24, 39, 177);
+    }
+    .dis3 {
+      display: grid;
+      grid-row: 1/1;
+      grid-column: 3;
+      background-color: rgb(207, 232, 220);
+      border: 2px solid rgb(24, 39, 177);
      
+    }
+    
+    
+    .dis4 {
+      display: grid;
+      grid-row: 1/1;
+      grid-column: 3;
+      background-color: rgb(207, 232, 220);
+      border: 2px solid rgb(24, 39, 177);
+     
+    }
+    
+    .dis5 {
+      display: grid;
+      grid-row: 1/1;
+      grid-column: 3;
+      background-color: rgb(207, 232, 220);
+      border: 2px solid rgb(24, 39, 177);
+       
+    }
+    
+    .dis6 {
+      display: grid;
+      grid-row: 1/1;
+      grid-column: 3/3;
+      background-color: rgb(207, 232, 220);
+      border: 2px solid rgb(24, 39, 177);
+      
+  }
+  .opuis{
+    color: black;
   }
   
-  .dis6 {
-    display: grid;
-    grid-row: 1/1;
-    grid-column: 3/3;
-    background-color: rgb(207, 232, 220);
-    border: 2px solid rgb(24, 39, 177);
-    
+  
+  
+  
+  p {
+  margin: 1rem;
   }
-.opuis{
-    color: black;
-}
-
-
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
-	
-    
-main {
-	margin: 0;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 1rem;
-	width: 760px;
-	background-color: rgba(200, 200, 255, 0.3);
-
-
-   
-}
-
-p {
-	margin: 1rem;
-}
-
-.label {
-	font-family: Arial, sans-serif;
-	font-weight: 700;
-}
-
-#visits {
-	color: navy;
-	font-weight: bolder;
-	font-size: larger;
-}
-
-.today {
-	color: tomato;
-}
-
-
-
-.visitors-track{
-color: black;
-}
-
-
-
-picture img.in {
-    animation: img-come-in 1s;
-}
-
-
-
-@keyframes img-come-in {
+  
+  .label {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  }
+  
+  #visits {
+  color: navy;
+  font-weight: bolder;
+  font-size: larger;
+  }
+  
+  
+  
+  .visitors-track{
+  color: black;
+  }
+  
+  
+  
+  picture img.in {
+  animation: img-come-in 1s;
+  }
+  
+  
+  
+  @keyframes img-come-in {
     from {
         transform: scale(0.9);
         opacity: 0;
@@ -131,4 +113,52 @@ picture img.in {
         transform: scale(1);
         opacity: 1;
     }
-}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
