@@ -1,14 +1,15 @@
  
 
 picture img {
-    width: 300px;
+    width: 280px;
     height: 150px;
    
     position: center;
     box-shadow: 2px 2px 4px #2f2f2f;
     grid-gap: 20px;
-    float:center;
+    float:left;
   }
+  
   
   
   
