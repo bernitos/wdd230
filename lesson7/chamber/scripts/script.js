@@ -44,8 +44,6 @@ if (day == 1 || day == 2) {
 const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
 
-// get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
 // determine if this is the first visit or display the number of visits.
 if (numVisits !== 0) {
