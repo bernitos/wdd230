@@ -1,4 +1,4 @@
-const btn = document.querySelector("#hamBtn");
+ const btn = document.querySelector("#hamBtn");
 const nav = document.querySelector("#headerNav");
 
 btn.addEventListener("click", () => {
@@ -33,8 +33,6 @@ if (day == 1 || day == 2) {
 } else {
   msg.classList.add("hide");
 }
- 
-
 
 
 
@@ -64,3 +62,30 @@ localStorage.setItem("visits-ls", numVisits);
 todayDisplay.textContent = Date.now();
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
