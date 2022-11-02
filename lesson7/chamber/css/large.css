@@ -175,6 +175,10 @@ section img {
 } 
 
 
+.presentation{
+ color: black;
+}
+
 
 
  /* Start the shake animation  from dis1 to dis 6 and make the animation last for 0.5 seconds */
