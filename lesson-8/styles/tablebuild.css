@@ -10,13 +10,13 @@ table{
     border-collapse: collapse;
     font-family: 'Edu NSW ACT Foundation',cursive;
     font-size: 1.3rem;
-    width: 21%;
+    width: 20%;
 }
 
 caption{
     padding: 10px;
     caption-side: bottom;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: navy;
 }
 
