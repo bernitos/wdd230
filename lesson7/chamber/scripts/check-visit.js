@@ -132,61 +132,47 @@ if (day == 1 || day == 2) {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-today = days[date.getDay()] +", " +date.getDate() +" " +monthNames[date.getMonth()] +" " +date.getFullYear(); 
-let currentDate = document.querySelector(".date-time");
-currentDate.textContent = today;
 
-let lastMod = new Date(document.lastModified);
-let currentCopy = new Date().getFullYear();
-
-let modifiedDate = document.querySelector(".last-modified");
-modifiedDate.innerHTML = lastMod.toLocaleString();
-
-let copyDate = document.querySelector(".copy-year");
-copyDate.innerHTML = currentCopy;
-
-// Hamburger Menu
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.hammy')
-
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
-// To solve the mid resizing issue with responsive class on
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
-
+ let lastVisited = window.localStorage.getItem("lastVisited");
+let lastVisitedDisplay = document.querySelector("#lastVisited");
+if (lastVisited) {
+    let days = Math.round((Date.now() - lastVisited));
+    lastVisitedDisplay.textContent = `You visited this page ${days} days ago.`;
+} else {
+    lastVisitedDisplay.textContent = `You visited this page for the first time today.`;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
