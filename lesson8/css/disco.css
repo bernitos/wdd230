@@ -1,11 +1,6 @@
 
-  
-  
-  
-  .title{
-    color: black;
-  }
-  picture img {
+
+picture img {
     width: 260px;
     height: 150px;
    
@@ -13,6 +8,12 @@
     box-shadow: 2px 2px 4px #2f2f2f;
     grid-gap: 20px;
     float:left;
+  }
+  
+  
+
+  .title{
+    color: black;
   }
   
   .dis1 {
@@ -98,22 +99,22 @@
   
   
   picture img.in {
-    animation: img-come-in 1s;
+  animation: img-come-in 1s;
+  }
+  
+  
+  
+  @keyframes img-come-in {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
     }
-    
-    
-    
-    @keyframes img-come-in {
-      from {
-          transform: scale(0.9);
-          opacity: 0;
-      }
-      to {
-          transform: scale(1);
-          opacity: 1;
-      }
+    to {
+        transform: scale(1);
+        opacity: 1;
     }
-    
+  }
+  
   
   
   
