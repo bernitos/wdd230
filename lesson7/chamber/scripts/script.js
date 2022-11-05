@@ -75,21 +75,3 @@ if (lastVisited) {
 
 
 
-
-
-
-timeText = difDays +" days ";  
-difVisit.textContent = timeText;
-
-
-// determine if this is the first visit or display the number of visits.
-if (dif !== 0) {
-	difVisit.textContent = timeText;
-} 
-else {
-	pElement.textContent = `This is your first visit!`;
-}
-
-// store the this visit as the new last visit
-
-localStorage.setItem("lastVisit", time);
