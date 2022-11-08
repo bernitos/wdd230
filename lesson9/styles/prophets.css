@@ -15,7 +15,8 @@ header, footer {
     text-align: center;
 }
 footer {
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .cards {
