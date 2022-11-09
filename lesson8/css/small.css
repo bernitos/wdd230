@@ -376,23 +376,6 @@ to {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main {
   padding: 0 5%;
   min-height: 15rem;
@@ -602,7 +585,7 @@ form .membership label{
 }
 
 .card-body p{
-  color: steelblue;
+  color: rgb(135, 144, 151);
 }
 
 
