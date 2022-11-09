@@ -1,6 +1,6 @@
 
 const shops = document.querySelector(".shops");
-const url ="";
+const url ="https://bernitos.github.io/wdd230/lesson-9/data.json";
 fetch(url)
   .then(function (response) {
     return response.json();
