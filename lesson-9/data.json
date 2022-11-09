@@ -1,0 +1,86 @@
+{
+  "companies": [
+    {
+      "name": "Agriculture-Centre",
+      "address": "Keke Avenue 16 Road",
+      "phone": "+225-655-545",
+      "site": "akosia@akosia.com",
+      "img": "./images/agriculture-centre (2).webp",
+      "level": "Gold",
+      "caption": "The only only around !"
+    },
+    {
+      "name": "Muesum of civilization",
+      "address": "keke Avenue 15 Road",
+      "phone": "+789-521-652",
+      "site": "infos@muesum.com",
+      "img": "./images/kingaka(3).jpg",
+      "level": "Gold",
+      "caption": "The muesum you will like the most !"
+    },
+    {
+      "name": "African Queen Lodge five stars",
+      "address": "abima 45 road ",
+      "phone": "+225-415-245",
+      "site": "africaqween@africaqween.com",
+      "img": "./images/FAMA Bio (2).webp",
+      "level": "Silver",
+      "caption": " You will enjoy a private beach,water sports facilities !"
+    },
+    {
+      "name": "Trade Finance",
+      "address": " 4 keke Road",
+      "phone": "+225-773-999 ",
+      "site": "lcl@lcl.com",
+      "img": "./images/finance.jpeg",
+      "level": "Silver",
+      "caption": "Practice standards for the financing of global trade.."
+    },
+    {
+      "name": "African Restaurant",
+      "address": "25 malubaire Road",
+      "phone": "+225-365-7456",
+      "site": "african@restaurant.com",
+      "img": "./images/restaurant (2).webp",
+      "level": "Silver",
+      "caption": "You will find a wide choice of burgers."
+    },
+    {
+      "name": "Dream Travel company",
+      "address": "45 Mawa Road",
+      "phone": "+255-163-1347",
+      "site": "dtc@dtc.com",
+      "img": "./images/mafere-brigde (2).webp",
+      "level": "Silver",
+      "caption": "A dream location."
+    },
+    {
+      "name": "Zoo!",
+      "address": "13 Mafifa  Road",
+      "phone": "+745-698-5235",
+      "site": "zoo@bio.com",
+      "img": "./images/Zoo-de-mafere_3_BAAB (2).webp",
+      "level": "Silver",
+      "caption": "Visit your wonderful zoo!"
+    },
+    {
+      "name": "kingata pizzeria",
+      "address": "7 rod Larifa",
+      "phone": "+778-121-9653",
+      "site": "king@pizzeria",
+      "img": "./images/pizzeria.jpg",
+      "level": "Bronze",
+      "caption": "30% less that the normal prices."
+    },
+    {
+      "name": "ILLUX  GAME COMPANY",
+      "address": "19 Amstrong Road",
+      "phone": "+225-222-7823",
+      "site": "illuxgame@illux.com",
+      "img": "./images/ILLUX.webp",
+      "level": "Bronze",
+      "caption": "6 month advantages!"
+    }
+    
+  ]
+}
