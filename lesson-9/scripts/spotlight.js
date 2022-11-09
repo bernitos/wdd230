@@ -1,5 +1,5 @@
 /*****************SPOTLIGHT JS**************/
-const jsonUrl = 
+const jsonUrl ="https://bernitos.github.io/wdd230/lesson-9/data.json";
 fetch(jsonUrl)
   .then(function (response) {
     return response.json();
