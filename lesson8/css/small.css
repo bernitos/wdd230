@@ -1,4 +1,4 @@
-
+ 
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -10,6 +10,7 @@
 }
 body {
   font-size: 0.9em;
+ 
 }
  
 h1,
@@ -406,12 +407,12 @@ form label.sbs{
 
 form fieldset {
   margin:2rem 0;
-  border:1px solid #445ba9;
+  border:1px solid #eff0f3;    
   border-radius: 10px;
-  padding:.5rem 0%;
+  padding:.1rem 0%;
 }
 form legend {
-  color: #445ba9;
+  color: white;
   margin:0 1rem;
   padding: 0rem;
 } 
@@ -424,15 +425,6 @@ form label.top,form div{
 
 }
 
-
-
- 
-
-
-
-
-
-
 form label.top input, form label.top select{
   -webkit-appearence: none;
   display: block;
@@ -443,24 +435,24 @@ form label.top input, form label.top select{
   color:#555;
   width:100%;
   max-width: 20rem;
-  background-color: rgb(0,0,0,0.1);
+  background-color: white;
 }
 
 form label .sbs{
   display:block;
   padding:.75rem 0;
-  color:#555;
+  color:white;
 }
 
 form input.submitBtn{
   border:none;
-  background-color: navy;
+  background-color:#999;
   color:white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
   margin:0 0 2rem 2%;
-  width: 96%;
-  max-width: 20rem;
+  width: 75%;
+  max-width: 15rem;
 }
 
 
@@ -469,7 +461,7 @@ form label.top input:required{
 }
 
 form label.top input:required:valid{
-border-left:navy solid 6px;
+border-left: rgb(91, 147, 252) solid 10px;
 }
 
 
@@ -515,9 +507,105 @@ footer {
 
 .input-box:focus{
   animation: border-color ease-in-out;
-  border: 1px solid var(--blue);
+  border: 4px solid rgb(202, 202, 219);
+  outline: none;
+  transition: .1s;
+  box-shadow: 0 0 15px 1px rgb(221, 221, 226);
+
+}
+
+
+
+
+
+.card-header{
+  background-color: #49505730;
+  margin:0;
+  border-bottom: 3px solid #49505730;
+  padding: 1rem;
+  text-align: center;     
+}
+
+.card-header p{
+  font-size: 1.5rem;
+  margin: 0;
+  color: white;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+
+
+
+section{
+  background-color: #306da7;
+  color: white;
+  margin: 2em 1vw;
+  padding: 0.3rem;
+  border-radius: 35px;
+  box-shadow: 0 3px 8px 0px rgb(158, 141, 141);
+}
+
+
+
+
+
+
+
+form fieldset label{
+  display: block;
+  margin: 1rem;
+}
+
+form .membership label{
+  display: inline;
+}
+
+
+
+.submitBtn:hover{
+  transition: 0.2s;
+  background-color: rgb(43, 44, 145);
+}
+
+
+
+
+
+
+form .membership label{
+  display: inline;
+}
+
+.input-box{
+  width: 100%;
+  padding: 10px .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  max-width: 500px;
+  line-height: 1.5rem;
+}
+
+.input-box:focus{
+ 
+  border: 1px solid blue;
   outline: none;
   transition: .15s;
-  box-shadow: 0 0 15px 1px var(--blue);
+  box-shadow: 0 0 15px 1px blue;
 
+}
+
+.card-body p{
+  color: steelblue;
+}
+
+
+.card-body li {
+color:white;
 }
