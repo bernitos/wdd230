@@ -429,7 +429,7 @@ form label .sbs{
 
 form input.submitBtn{
   border:none;
-  background-color:#999;
+  background-color:rgb(135, 144, 151);
   color:white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
