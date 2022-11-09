@@ -1,6 +1,6 @@
 
 const shops = document.querySelector(".shops");
-
+const url ="";
 fetch(url)
   .then(function (response) {
     return response.json();
