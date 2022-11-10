@@ -4,7 +4,7 @@
       "name": "Agriculture-Centre",
       "address": "Keke Avenue 16 Road",
       "phone": "+225-655-545",
-      "site": "sia@akosia.com",
+      "site": "sia@asia.com",
       "img": "./images/agriculture-centre.webp",
       "level": "Gold",
       "caption": "The only only around !"
@@ -13,7 +13,7 @@
       "name": "Muesum of civilization",
       "address": "keke Avenue 15 Road",
       "phone": "+789-521-652",
-      "site": "in@muesum.com",
+      "site": "in@mue.com",
       "img": "./images/kingaka.jpg",
       "level": "Gold",
       "caption": "The muesum you will like the most !"
@@ -22,7 +22,7 @@
       "name": "African Queen Lodge five stars",
       "address": "abima 45 road ",
       "phone": "+225-415-245",
-      "site": "qween@africaqween.com",
+      "site": "q@afri.com",
       "img": "./images/FAMA Bio.webp",
       "level": "Silver",
       "caption": " You will enjoy a private beach,water sports facilities !"
@@ -40,7 +40,7 @@
       "name": "African Restaurant",
       "address": "25 malubaire Road",
       "phone": "+225-365-7456",
-      "site": "afri@restaurant.com",
+      "site": "afri@resto.com",
       "img": "./images/restaurant.webp",
       "level": "Silver",
       "caption": "You will find a wide choice of burgers."
@@ -67,7 +67,7 @@
       "name": "kingata pizzeria",
       "address": "7 rod Larifa",
       "phone": "+778-121-9653",
-      "site": "king@pizzeria",
+      "site": "k@piz",
       "img": "./images/pizzeria.jpg",
       "level": "Bronze",
       "caption": "30% less that the normal prices."
@@ -76,7 +76,7 @@
       "name": "ILLUX  GAME COMPANY",
       "address": "19 Amstrong Road",
       "phone": "+225-222-7823",
-      "site": "game@illux.com",
+      "site": "g@illux.com",
       "img": "./images/ILLUX.webp",
       "level": "Bronze",
       "caption": "6 month advantages!"
