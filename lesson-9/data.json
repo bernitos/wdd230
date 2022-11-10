@@ -19,13 +19,13 @@
       "caption": "The muesum you will like the most !"
     },
     {
-      "name": "African Queen Lodge five stars",
+      "name": "African Queen",
       "address": "abima 45 road ",
       "phone": "+225-415-245",
       "site": "q@qn.com",
       "img": "./images/FAMA Bio.webp",
       "level": "Silver",
-      "caption": " You will enjoy a private beach,water sports facilities !"
+      "caption": " You will enjoy a private beach  !"
     },
     {
       "name": "Trade Finance",
@@ -34,7 +34,7 @@
       "site": "lcl@lcl.com",
       "img": "./images/finance.jpeg",
       "level": "Silver",
-      "caption": "Practice standards for the financing of global trade.."
+      "caption": "Practice standards for the financing."
     },
     {
       "name": "African Restaurant",
@@ -46,7 +46,7 @@
       "caption": "You will find a wide choice of burgers."
     },
     {
-      "name": "Dream Travel company",
+      "name": "Dream Travel",
       "address": "45 Mawa Road",
       "phone": "+255-163-1347",
       "site": "dt@dt.com",
@@ -73,7 +73,7 @@
       "caption": "30% less that the normal prices."
     },
     {
-      "name": "ILLUX  GAME COMPANY",
+      "name": "ILLUX  GAME",
       "address": "19 Amstrong Road",
       "phone": "+225-222-7823",
       "site": "g@ux.com",
