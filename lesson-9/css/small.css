@@ -280,7 +280,7 @@ footer a {
 .lst section {
   margin: 0;
   padding: 2%;
-  text-align: left;
+  text-align: center;
    
 }
 .lst section:nth-child(even) {
