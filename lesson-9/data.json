@@ -1,10 +1,10 @@
-{
+ {
   "companies": [
     {
       "name": "Agriculture-Centre",
       "address": "Keke Avenue 16 Road",
       "phone": "+225-655-545",
-      "site": "sia@asia.com",
+      "site": "a@ia.com",
       "img": "./images/agriculture-centre.webp",
       "level": "Gold",
       "caption": "The only only around !"
@@ -22,7 +22,7 @@
       "name": "African Queen Lodge five stars",
       "address": "abima 45 road ",
       "phone": "+225-415-245",
-      "site": "q@afri.com",
+      "site": "q@qn.com",
       "img": "./images/FAMA Bio.webp",
       "level": "Silver",
       "caption": " You will enjoy a private beach,water sports facilities !"
@@ -40,7 +40,7 @@
       "name": "African Restaurant",
       "address": "25 malubaire Road",
       "phone": "+225-365-7456",
-      "site": "afri@resto.com",
+      "site": "a@res.com",
       "img": "./images/restaurant.webp",
       "level": "Silver",
       "caption": "You will find a wide choice of burgers."
@@ -49,7 +49,7 @@
       "name": "Dream Travel company",
       "address": "45 Mawa Road",
       "phone": "+255-163-1347",
-      "site": "dtc@dtc.com",
+      "site": "dt@dt.com",
       "img": "./images/mafere-brigde.webp",
       "level": "Silver",
       "caption": "A dream location."
@@ -76,7 +76,7 @@
       "name": "ILLUX  GAME COMPANY",
       "address": "19 Amstrong Road",
       "phone": "+225-222-7823",
-      "site": "g@illux.com",
+      "site": "g@ux.com",
       "img": "./images/ILLUX.webp",
       "level": "Bronze",
       "caption": "6 month advantages!"
