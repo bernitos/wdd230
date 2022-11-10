@@ -4,7 +4,7 @@
       "name": "Agriculture-Centre",
       "address": "Keke Avenue 16 Road",
       "phone": "+225-655-545",
-      "site": "a@ia.com",
+      "site": "ia.com",
       "img": "./images/agriculture-centre.webp",
       "level": "Gold",
       "caption": "The only only around !"
@@ -13,7 +13,7 @@
       "name": "Muesum of civilization",
       "address": "keke Avenue 15 Road",
       "phone": "+789-521-652",
-      "site": "in@mue.com",
+      "site": "mue.com",
       "img": "./images/kingaka.jpg",
       "level": "Gold",
       "caption": "The muesum you will like the most !"
@@ -22,7 +22,7 @@
       "name": "African Queen",
       "address": "abima 45 road ",
       "phone": "+225-415-245",
-      "site": "q@qn.com",
+      "site": "qn.com",
       "img": "./images/FAMA Bio.webp",
       "level": "Silver",
       "caption": " You will enjoy a private beach  !"
@@ -31,7 +31,7 @@
       "name": "Trade Finance",
       "address": " 4 keke Road",
       "phone": "+225-773-999 ",
-      "site": "lcl@lcl.com",
+      "site": "lcl.com",
       "img": "./images/finance.jpeg",
       "level": "Silver",
       "caption": "Practice standards for the financing."
@@ -40,7 +40,7 @@
       "name": "African Restaurant",
       "address": "25 malubaire Road",
       "phone": "+225-365-7456",
-      "site": "a@res.com",
+      "site": "res.com",
       "img": "./images/restaurant.webp",
       "level": "Silver",
       "caption": "You will find a wide choice of burgers."
@@ -49,7 +49,7 @@
       "name": "Dream Travel",
       "address": "45 Mawa Road",
       "phone": "+255-163-1347",
-      "site": "dt@dt.com",
+      "site": "dt.com",
       "img": "./images/mafere-brigde.webp",
       "level": "Silver",
       "caption": "A dream location."
@@ -58,7 +58,7 @@
       "name": "Zoo!",
       "address": "13 Mafifa  Road",
       "phone": "+745-698-5235",
-      "site": "z@bio.com",
+      "site": "bio.com",
       "img": "./images/Zoo-de-mafere_3_BAAB.webp",
       "level": "Silver",
       "caption": "Visit your wonderful zoo!"
@@ -67,7 +67,7 @@
       "name": "kingata pizzeria",
       "address": "7 rod Larifa",
       "phone": "+778-121-9653",
-      "site": "k@piz",
+      "site": "k.ci",
       "img": "./images/pizzeria.jpg",
       "level": "Bronze",
       "caption": "30% less that the normal prices."
@@ -76,7 +76,7 @@
       "name": "ILLUX  GAME",
       "address": "19 Amstrong Road",
       "phone": "+225-222-7823",
-      "site": "g@ux.com",
+      "site": "ux.com",
       "img": "./images/ILLUX.webp",
       "level": "Bronze",
       "caption": "6 month advantages!"
