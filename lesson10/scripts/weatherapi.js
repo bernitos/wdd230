@@ -1,4 +1,4 @@
-const url = 'https:api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=eca28685f631a2e2a2a95d8ba248ff08'
+ const url = 'https:api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=eca28685f631a2e2a2a95d8ba248ff08'
 const currentTemp = document.querySelector('#current-temp')
 const iconSrc = document.querySelector('#icon-src')
 const icon = document.querySelector('#weathericon')
