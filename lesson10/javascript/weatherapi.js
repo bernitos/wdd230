@@ -33,7 +33,7 @@ const displayResults = (weatherData)=>{
     weatherIcon.setAttribute('src', iconImg);
     weatherIcon.setAttribute('alt','weather-icon');
 
-    captionDesc.innerText = capFirstLetter(descript);
+    captionDesc.innerText = weather(descript);
 
 }
 
