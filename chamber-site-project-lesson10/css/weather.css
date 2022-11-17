@@ -1,0 +1,58 @@
+
+
+.container{
+    max-width: 300px;
+    padding-top: 2%;
+  max-height: 70px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+   
+    
+
+}
+
+ .div  h1{
+    line-height: 10%;
+    padding-bottom: 50%;
+    font-family: 'Edu NSW ACT Foundation',cursive;
+    position:absolute;
+    
+    
+
+
+}
+.container p{
+    font-family: 'Edu NSW ACT Foundation',cursive;
+    font-size:2rem;
+    font-weight: 500;
+    line-height: 1%;
+    
+}
+
+
+figure img {
+    max-width: 60%;
+    margin-top: 0%;
+   
+    
+ 
+}
+
+
+.condition{
+    
+    padding-bottom: 1%;
+ }
+ 
+
+  div .tine {
+    font-size: small;
+ }
+
+ #chill{
+    font-size: small;
+    line-height: .5rem;
+ }
