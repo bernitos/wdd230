@@ -1,0 +1,714 @@
+
+/**************************** Start Container weather*********************/
+
+
+.container{
+  max-width: 300px;
+  padding-top: 2%;
+max-height: 70px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+ 
+  
+
+}
+
+.div  h1{
+  line-height: 100%;
+  padding-bottom: 50%;
+  font-family: 'Edu NSW ACT Foundation',cursive;
+  position:absolute;
+  
+  
+
+
+}
+.container p{
+  font-family: 'Edu NSW ACT Foundation',cursive;
+  font-size:2rem;
+  font-weight: 500;
+  line-height: 1%;
+  
+}
+
+
+figure img {
+  max-width: 60%;
+  margin-top: 0%;
+ 
+  
+
+}
+
+
+.condition{
+  
+  padding-bottom: 1%;
+}
+
+
+div .tine {
+  font-size: small;
+}
+
+#chill{
+  font-size: small;
+  line-height: .5rem;
+}
+
+
+/**************************** End Container weather*********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+.visits{
+  color:navy;
+  border: 2px solid white;
+border-radius: 15px 15px;
+max-width: 100%;
+ 
+background-color: white;
+} 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 0.9em;
+ 
+}
+ 
+h1,
+h2 {
+  font-family: 'Edu NSW ACT Foundation',cursive;
+}
+
+
+html{
+  color: white;
+}
+a,
+p,
+nav {
+  font-family: 'Edu NSW ACT Foundation',cursive;
+  text-decoration: none;
+}
+ 
+header {
+  background-color: navy;
+  display: grid;
+}
+#msg {
+  background-image: linear-gradient(
+    90deg,#dce1ec,#e0e3eb,
+    #cdd1da,#dde2ec,#e6e8ee,
+    #e1e5f1,
+  );
+  grid-column: 1/3;
+  text-align: center;
+  padding: 0.5em;
+}
+.show {
+  display: inline;
+}
+.hide {
+  display: none;
+}
+.limited {
+  grid-column: 1/3;
+  display: grid;
+}
+header img {
+  width: 100%;
+  height: auto;
+  
+}
+header #pic {
+  width: 10em;
+  grid-row: 1/3;
+  padding: 0.5em;
+  padding-top: 1em;
+  grid-row: 1/3;
+}
+#social {
+  grid-column: 4/5;
+  grid-row: 1/3;
+  display: flex;
+  flex-wrap: wrap;
+  width:3.5em;
+  padding-top: 0.6em;
+}
+#facebook, #linkedin {
+  margin-right: 1em;
+  width:100px;
+  height:40px;
+}
+header h1 {
+  text-align: left;
+  font-size: 1.5em;
+  grid-column:2/4;
+  grid-row: 1/2;
+  margin: auto;
+  margin-top: 1em;
+  color: #fff;
+}
+.date {
+  border: 1px solid white;
+  text-align: center; 
+  grid-column: 1/3;
+  grid-row: 4/5;
+  padding: 2% 0;
+  color: white;
+} 
+nav {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  padding: 2%;
+  background-color: black;
+}
+nav ul li {
+  padding: 0.5em;
+}
+nav ul li a {
+  color: white;
+  padding: 0.5em 5em;
+}
+nav li:hover {
+  background-color: black;
+  color: white;
+}
+nav ul li.active {
+  background-color:black;
+}
+nav ul.open,
+#btn span:nth-child(1),
+#btn.open span:nth-child(2) {
+  display: block;
+}
+#btn span:nth-child(2),
+#btn.open span:nth-child(1),
+nav ul {
+  display: none;
+}
+nav ul {
+  background-color: navy;
+  font-size: 1.2em;
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+} 
+main {
+  margin: 9%;
+}
+#normalContent section:nth-child(3),
+#normalContent section:nth-child(4),
+#normalContent section:nth-child(5),
+#spot1,
+#spot2,
+#spot3 {
+  padding: 2em;
+  text-align: center;
+}
+main section {
+  background-color: navy;
+
+  margin-bottom: 2%;
+  display: grid;
+}
+#normalContent section:nth-child(2) {
+  position: relative;
+}
+#heroP {background-image: linear-gradient(
+    90deg,
+    #050502,
+    #050502,
+    #050502,
+    #050502,
+    #050502,
+  );
+  color: rgb(8, 0, 0);
+  font-size: 2em;
+  position: absolute;
+width: 100%;
+ 
+text-align: center;
+ 
+}
+#heroMCC{
+  background-color: var(--btnBground);
+  color: rgba(165, 47, 47, 0.9);
+  border-radius: 10px;
+  border: 3.5px solid var(--btnColor);
+  position: absolute;
+  padding: 0.5em;
+  margin: 1em 1% 0;
+}
+section img {
+  width: 100%;
+  height:100%;
+  border-radius : 35px 35px 20px 20px;
+} 
+#weather {
+  display: grid;
+}
+#weather .mainImg {
+  width: 8em;
+  min-width: 70px;
+  max-width: 150px;
+  padding-top: 19em;
+  margin: auto;
+}
+#weather p {
+  font-size: 3em;
+  grid-column: 2/ 3;
+  margin: auto;
+  padding: 0.6em;
+}
+
+
+
+
+section h2 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+#currentWeather {
+  margin: 0em;
+  font-size: 1.3em;
+}
+#spot1 p:nth-of-type(1),
+#spot2 p:nth-of-type(1),
+#spot3 p:nth-of-type(1) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 4% 0;
+  margin: 4% 0;
+  color: white;
+}
+#spot1 .mainImg,
+#spot2 .mainImg,
+#spot3 .mainImg {
+  width: 15em;
+  margin: auto;
+   
+}
+.mainImg img {
+  width: 70%;
+}
+#source {
+  margin: 2%;
+} 
+#join,
+#spot3,
+#hero2 {
+  display: none;
+ 
+} 
+footer {
+  background-color: navy;
+}
+.max {  
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+
+  margin-top: 2em;
+}
+footer a img {
+  width:100px; 
+  height:62px; 
+  margin-top: 2%;
+}
+footer p {
+  margin: 0.5em;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0.4em;
+} 
+#heading {
+  text-align: center;
+}
+#visit {
+  font-size: 1.3em;
+  text-align: center;
+}
+#joinImg {
+  display: none;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.grid section:nth-of-type(9) img {
+  width: 100%;
+}
+ 
+.lst section {
+  margin: 0;
+  padding: 2%;
+  text-align: left;
+   
+}
+.lst section:nth-child(even) {
+  background-color: #2482cf;
+}
+.lst h2 {
+  color: white;
+  font-family: 'Edu NSW ACT Foundation',cursive;
+  font-size: 0.5em;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}
+.lst img {
+  display: none;
+}
+
+
+
+ 
+.picture img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  position: cente;
+ }
+
+picture img.in {
+  animation: img-come-in 0s;
+}
+
+
+
+@keyframes img-come-in {
+from {
+      transform: scale(0.5);
+      opacity: 0;
+  }
+to {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+
+.title{
+  color: black;
+}
+
+.dis1 {
+  grid-column: 1/1;
+  grid-row: 3;
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(24, 39, 177);
+}
+
+.dis2 {
+  grid-column: 1/1;
+  grid-row: 3;
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(24, 39, 177);
+}
+.dis3 {
+  grid-row: 1/1;
+  grid-column: 3;
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(24, 39, 177);
+}
+
+
+.dis4 {
+  grid-row: 1/1;
+  grid-column: 3;
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(24, 39, 177);
+}
+
+.dis5 {
+  grid-row: 1/1;
+  grid-column: 3;
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(24, 39, 177);
+   
+}
+
+.dis6 {
+  grid-row: 1/1;
+  grid-column: 1;
+  background-color: rgb(1, 15, 8);
+  border: 2px solid rgb(15, 46, 133);
+  
+}
+.opuis{
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+  padding: 0 5%;
+  min-height: 15rem;
+}
+
+form label.sbs{
+  padding:4rem 0;
+}
+
+
+/*----------- FORM--------------*/
+
+form fieldset {
+  margin:2rem 0;
+  border:1px solid #eff0f3;    
+  border-radius: 10px;
+  padding:.1rem 0%;
+}
+form legend {
+  color: white;
+  margin:0 1rem;
+  padding: 0rem;
+} 
+
+form label.top,form div{
+  display: block;
+  padding-top: 0rem;
+  color:white;
+  font-size:.8rem;
+
+}
+
+form label.top input, form label.top select{
+  -webkit-appearence: none;
+  display: block;
+  font-size: 1rem;
+  border:solid 1px #999;
+  border-radius: 4px;
+  padding:.75rem;
+  color:#555;
+  width:100%;
+  max-width: 20rem;
+  background-color: white;
+}
+
+form label .sbs{
+  display:block;
+  padding:.75rem 0;
+  color:white;
+}
+
+form input.submitBtn{
+  border:none;
+  background-color:white;
+  color:navy;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin:0 0 2rem 2%;
+  width: 75%;
+  max-width: 15rem;
+}
+
+
+form label.top input:required{
+  border-left:red solid 6px;
+}
+
+form label.top input:required:valid{
+border-left: rgb(91, 147, 252) solid 10px;
+}
+
+
+textarea { 
+  height: 105px;
+   
+   padding:5px;
+   margin: 0;
+   border: 0; 
+  }
+ 
+.re{
+  color:white;
+}
+
+
+
+
+
+footer {
+  
+  padding: .7rem 2%;
+  text-align: center;
+}
+
+.poi{
+  width: 100px;
+  height: 70px;
+  align-items: center;
+}
+
+ 
+ 
+.submitBtn{
+  
+  cursor: pointer;
+   
+}
+
+
+
+
+
+.input-box:focus{
+  animation: border-color ease-in-out;
+  border: 4px solid rgb(202, 202, 219);
+  outline: none;
+  transition: .1s;
+  box-shadow: 0 0 15px 1px rgb(221, 221, 226);
+
+}
+
+
+
+
+
+.card-header{
+  background-color: rgb(135, 144, 151);
+  margin:0;
+  border-bottom: 3px solid #49505730;
+  padding: 1rem;
+  text-align: center;     
+}
+
+.card-header p{
+  font-size: 1.5rem;
+  margin: 0;
+  color:white;
+   
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+
+
+
+section{
+  background-color: #306da7;
+  color: white;
+  margin: 2em 1vw;
+  padding: 0.3rem;
+  border-radius: 35px;
+  box-shadow: 0 3px 8px 0px rgb(158, 141, 141);
+}
+
+
+
+
+
+
+
+form fieldset label{
+  display: block;
+  margin: 1rem;
+}
+
+form .membership label{
+  display: inline;
+}
+
+
+
+.submitBtn:hover{
+  transition: 0.2s;
+  background-color: rgb(105, 105, 124);
+}
+
+
+
+
+
+
+form .membership label{
+  display: inline;
+}
+
+.input-box{
+  width: 100%;
+  padding: 10px .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  max-width: 500px;
+  line-height: 1.5rem;
+}
+
+.input-box:focus{
+ 
+  border: 1px solid blue;
+  outline: none;
+  transition: .15s;
+  box-shadow: 0 0 15px 1px blue;
+
+}
+
+.card-body p{
+  color: rgb(135, 144, 151);
+}
+
+
+.card-body li {
+color:white;
+}
