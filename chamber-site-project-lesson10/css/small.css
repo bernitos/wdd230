@@ -712,3 +712,18 @@ form .membership label{
 .card-body li {
 color:white;
 }
+
+
+
+
+
+
+.contact-form{
+  font: weight 600px;
+}
+.anoma{
+  width: 130px;
+  height: 130px;
+  margin-left: 28%;
+  border-radius: 100px 100px 100px 100px ;
+}
