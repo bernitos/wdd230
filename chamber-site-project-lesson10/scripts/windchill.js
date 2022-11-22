@@ -1,10 +1,4 @@
-
-
-
-
-const temperature =  document.getElementById("temp").textContent;
-const tempNumber =parseFloat(document.getElementById("temp").textContent);
-
+ 
 const speedNumber =parseFloat(document.getElementById("speed").textContent);
 
 let windchill = 35.74 + (0.625 * tempNumber) - (35.75 * Math.pow(speedNumber,0.16))
@@ -12,13 +6,13 @@ let windchill = 35.74 + (0.625 * tempNumber) - (35.75 * Math.pow(speedNumber,0.1
 windchill = Math.round(windchill);
 
 if (tempNumber<=50 && speedNumber>3){
-    document.getElementById("chill").textContent = "wind chill is "+windchill+"\xB0F";
+  document.getElementById("chill").textContent = "wind chill is "+windchill+"\xB0F";
 
 } else{
 document.getElementById("chill").textContent = "Windchill: N/A"
 }
-
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Mafere&appid=eca28685f631a2e2a2a95d8ba248ff08&units=imperial'
+ 
+const apiurl = "https://api.openweathermap.org/data/2.5/weather?q=Mafere&appid=eca28685f631a2e2a2a95d8ba248ff08&units=imperial"
 
  fetch(apiURL)
     .then((response) => response.json())
@@ -34,28 +28,3 @@ const url = 'https://api.openweathermap.org/data/2.5/weather?q=Mafere&appid=eca2
     const sped = jsObject.wind.speed;
     document.querySelector('#speed').textContent = sped;
   });
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
