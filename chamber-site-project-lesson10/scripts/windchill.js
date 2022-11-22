@@ -18,7 +18,7 @@ if (tempNumber<=50 && speedNumber>3){
 document.getElementById("chill").textContent = "Windchill: N/A"
 }
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=mafere&appid=eca28685f631a2e2a2a95d8ba248ff08&units=imperial'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Mafere&appid=eca28685f631a2e2a2a95d8ba248ff08&units=imperial'
 
  fetch(apiURL)
     .then((response) => response.json())
