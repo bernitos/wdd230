@@ -18,7 +18,7 @@ if (tempNumber<=50 && speedNumber>3){
 document.getElementById("chill").textContent = "Windchill: N/A"
 }
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=aboisso&units=imperial&appid=eca28685f631a2e2a2a95d8ba248ff08" ;
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=mafere&units=imperial&appid=eca28685f631a2e2a2a95d8ba248ff08" ;
 
  fetch(apiURL)
     .then((response) => response.json())
