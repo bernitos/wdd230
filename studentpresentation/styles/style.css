@@ -1,0 +1,28 @@
+ body{
+    background-color: rgb(0, 6, 8);
+    margin:0 auto ;
+}
+
+
+h3{
+    color: white;
+ font-size-adjust: 0rem;   
+    font-family: 'Edu NSW ACT Foundation',cursive;
+    text-align: center;
+}
+
+
+h5{
+    color: white;
+ font-size-adjust: 0rem;   
+    font-family: 'Edu NSW ACT Foundation',cursive;
+    text-align: center;
+}
+
+.presentation{
+    display: block;
+    margin: 0px auto;
+    width: 660px;
+    height: 350px; 
+  }
+ 
