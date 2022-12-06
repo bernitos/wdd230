@@ -5,7 +5,7 @@ fetch(requestURL)
     return response.json()
   })
   .then(function (jaonObject) {
-    const prophets = jsonObject['fruits']
+    const fruits = jsonObject['fruits']
     prophets.forEach(element => {
         let card = document.createElement('section')
         let h2 = document.createElement('h2')
