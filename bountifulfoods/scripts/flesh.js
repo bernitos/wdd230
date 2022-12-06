@@ -1,4 +1,4 @@
-const requestURL = 'https://brotherblazzard.github.io/canvas-content/fruit.json'
+const requestURL = 'https://bernitos.github.io/wdd230/bountifulfoods/data.json'
 
 fetch(requestURL)
   .then(function (response) {
