@@ -97,10 +97,11 @@ body {
     max-width: 900px;
     margin: 0 auto;
     overflow-x: hidden;
-    box-shadow: 3px 3px  var(--dark-gray);
+    box-shadow: 2px 2px  var(--dark-gray);
     
     border-radius: 15px 15px 15px 15px ;
     background-color: #8d8787;
+    border: solid 1px green;
 }
 
   
@@ -534,81 +535,12 @@ div button-box{
    background-color: green;
   border: solid .7px white;
   
+  font-family:'Edu NSW ACT Foundation',cursive;
+
   
 }
 
   
-
-
-
-
- 
- 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -633,6 +565,10 @@ form fieldset {
     padding-top: 0rem;
     color:black;
     font-size:.8rem;
+    
+  font-family:'Edu NSW ACT Foundation',cursive;
+
+   
    
   }
   
@@ -644,7 +580,7 @@ form fieldset {
     border-radius: 4px;
     padding:.75rem;
     color:black;
-    
+  
     max-width: 12rem;
     background-color: green;
   }
@@ -688,6 +624,7 @@ border-radius: 4px;
    
   .re{
     color:black;
+    font-family:'Edu NSW ACT Foundation',cursive;
   }
   
   footer {
@@ -716,7 +653,7 @@ form fieldset label{
 
   .input-box:focus{
     animation: border-color ease-in-out;
-    border: 6px solid rgb(202, 202, 219);
+    border: 6px solid white;
     outline: none;
     transition: .1s;
     box-shadow: 0 0 15px 1px black;
@@ -724,18 +661,22 @@ form fieldset label{
   }
   
 
-
-
 .banner-flesh{
 margin-top: 50%;
   }
 
-
-
-
-.about-ussms{
-  text-align:justify;
+.sma{
+  text-align:center;
+  font-family:'Edu NSW ACT Foundation',cursive;
+  
+  grid-row: 2/2;
 }
+
+
+  .about-ussms{
+    text-align:center;
+    font-family:'Edu NSW ACT Foundation',cursive;
+  }
 
 
 .insi1{
@@ -744,6 +685,4 @@ margin-top: 50%;
   margin-right: 0;
   margin-left: 0;
 }
-
  
-
