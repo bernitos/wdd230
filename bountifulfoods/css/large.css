@@ -517,6 +517,14 @@ div button-box{
 
  
 
+
+
+
+
+
+
+
+
 .date{
     
     text-align: center;
@@ -531,6 +539,10 @@ div button-box{
 
   
 
+
+
+
+ 
  
     
 
@@ -600,6 +612,123 @@ div button-box{
 
 
 
+/*----------- FORM--------------*/
+
+form fieldset {
+    margin:.5rem .0;
+    border:1px solid #3f4044;    
+    border-radius: 7px;
+    padding:.5rem 1%;
+    margin-right: 3%;
+    margin-left: 1%;
+  }
+  form legend {
+    color: green;
+    margin:0 1rem;
+    padding: 0rem;
+  } 
+  
+  form label.top,form div{
+    display: block;
+    padding-top: 0rem;
+    color:black;
+    font-size:.8rem;
+   
+  }
+  
+  form label.top input, form label.top select{
+    -webkit-appearence: none;
+    display: block;
+    font-size: 1rem;
+    border:solid 1px #999;
+    border-radius: 4px;
+    padding:.75rem;
+    color:black;
+    
+    max-width: 12rem;
+    background-color: green;
+  }
+  
+  form label .sbs{
+    display:block;
+    padding:.75rem 0;
+    color:white;
+  }
+  
+  form input.submitBtn{
+    border:none;
+    background-color:rgb(93, 95, 95);
+    color:white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin:0 0 2rem 2%;
+    width: 80%;
+    max-width: 15rem;
+  }
+  
+  
+  form label.top input:required{
+    border-left:red solid 6px;
+    
+  }
+  
+  form label.top input:required:valid{
+  border-left: rgb(91, 147, 252) solid 10px;
+  }
+  
+  
+textarea { 
+height: 100px;
+margin: 0;
+border: 2; 
+padding:.2rem 10%;
+border:3px solid #3f4044;    
+border-radius: 4px;
+}
+   
+  .re{
+    color:black;
+  }
+  
+  footer {
+    
+    padding: .7rem 2%;
+    text-align: center;
+  }
+  
+  .poi{
+    width: 20px;
+    height: 70px;
+    align-items: center;
+  }
+
+  .submitBtn{
+    
+    cursor: pointer;
+     
+  }
+
+form fieldset label{
+    display: block;
+    margin: 1rem;
+  }
+
+
+  .input-box:focus{
+    animation: border-color ease-in-out;
+    border: 6px solid rgb(202, 202, 219);
+    outline: none;
+    transition: .1s;
+    box-shadow: 0 0 15px 1px black;
+  
+  }
+  
+
+
+
+.banner-flesh{
+margin-top: 50%;
+  }
 
 
 
