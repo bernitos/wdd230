@@ -118,7 +118,7 @@ body {
         font-family: var(--paragraph);
     }
 
-
+/* Iput this link here for the background image */
 
     body{
         background-image: url("https://unsplash.com/photos/zcUgjyqEwe8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink");
@@ -219,13 +219,6 @@ footer a img {
 
 /*========+++++++==========*/
  
-  
-.max {
-    grid-template-columns: 1fr  1fr;
-
-
-    
-  }
   footer p:nth-of-type(1) {
       padding-top: 1em;
       text-align: left;
@@ -237,49 +230,41 @@ footer a img {
    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .logofot{
+/*========================= Start Geoplace========================-*/
+    
+section.contact-info {
+  grid-column: 1/1;
+  position: relative;
+  left: 0rem;
+  width: 87%;
+  padding: 1rem;
+  display: grid;
+  background-color:whitesmoke;
+  grid-template-columns: 40% auto;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 1px  10px 100px;
+}
+section.contact-info iframe {
+  grid-row: span 3;
+  grid-column: 1;
+  height: 200px;
+  width: 80%;
+  border: 0;
+}
+section.contact-info h3, section.contact-info ul {
+  margin-top: 0;
+  text-align: left;
+  color: black;
+  font-family:'Edu NSW ACT Foundation',cursive;
+}
+section.contact-info ul {
+  margin-bottom: 0;
+}
+section.contact-info li {
+  padding-top: 1px;
+}
+/*========================= End Geoplace========================-*/
+ .logofot{
       height: 70px;
       width: 70px;
      
@@ -314,8 +299,6 @@ font-family:'Edu NSW ACT Foundation',cursive;
   font-family:'Edu NSW ACT Foundation',cursive;
 }
 
-
-  
   footer h4.website{
       color: white;
       grid-row: 4;
@@ -324,57 +307,6 @@ font-family:'Edu NSW ACT Foundation',cursive;
   font-family:'Edu NSW ACT Foundation',cursive;  
   }
   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-    
 #lastMod{
   padding-top: 1px;
   display: block;
@@ -382,9 +314,6 @@ font-family:'Edu NSW ACT Foundation',cursive;
   color: var(white);
   text-align: center;
 }
-
-
-
 /*===================End Footer====================*/
 
 /*==================The social start===============*/
@@ -426,11 +355,8 @@ font-family:'Edu NSW ACT Foundation',cursive;
         border-radius: 4px 4px 12px 12px ;
    
     }
-    
 /*=================The social end=================*/ 
-    
-    
-    
+     
 .hero div {
     text-align: center;
     margin-left: 20px;
@@ -442,12 +368,6 @@ font-family:'Edu NSW ACT Foundation',cursive;
 section > section.grid {
     grid-template-columns: 150px auto;
 }
-
-
-
- 
-
-
 
 picture img {
   
@@ -462,14 +382,9 @@ picture img.in {
   animation: img-come-in 2s;
 }
 
- 
  h4{
   text-align: center;
  }
-
- 
-
-
 
 @keyframes img-come-in {
   from {
@@ -481,12 +396,6 @@ picture img.in {
       opacity: 1;
   }
 }
-
-
-
- 
-
-
 /*=================Temperature place styling start =========================*/
 .well {
 	background-color: green;
@@ -590,9 +499,6 @@ div button-box2{
         border-radius: 10px 14px 200px 10px ;
     }
     
-
-
-
 .flesh{
     background-color:   orange; 
     color: white;
@@ -623,8 +529,6 @@ div button-box{
    
     }
   
-
-
 /*=================Temperature place styling end =========================*/
 
 
@@ -646,8 +550,6 @@ div button-box{
  
 }
 
-
-
 .small-drink{
   margin-top: 5%;
   position: absolute;
@@ -657,16 +559,6 @@ div button-box{
 
 /*================= End last B=========================*/
  
-
- 
-
-
-
-
-
-
-
-
 
 .date{
     
@@ -681,9 +573,6 @@ div button-box{
 
   
 }
-
-  
-
 
 
 /*----------- FORM--------------*/
@@ -710,8 +599,6 @@ form fieldset {
     
   font-family:'Edu NSW ACT Foundation',cursive;
 
-   
-   
   }
   
   form label.top input, form label.top select{
@@ -743,7 +630,6 @@ form fieldset {
     width: 80%;
     max-width: 15rem;
   }
-  
   
   form label.top input:required{
     border-left:red solid 6px;
