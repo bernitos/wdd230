@@ -1,4 +1,4 @@
-/*==============================ROOT=======================*/
+ /*==============================ROOT=======================*/
 
 :root {
 
@@ -582,8 +582,9 @@ form fieldset {
     border:1px solid #3f4044;    
     border-radius: 7px;
     padding:.5rem 1%;
-    margin-right: 3%;
+    margin-right: 2%;
     margin-left: 1%;
+    border-radius: 15px 15px 15px 15px;
   }
   form legend {
     color: green;
@@ -596,12 +597,12 @@ form fieldset {
     padding-top: 0rem;
     color:black;
     font-size:.8rem;
-    
+   
   font-family:'Edu NSW ACT Foundation',cursive;
 
   }
   
-  form label.top input, form label.top select{
+  form label input, form label select{
     -webkit-appearence: none;
     display: block;
     font-size: 1rem;
@@ -612,6 +613,7 @@ form fieldset {
   
     max-width: 12rem;
     background-color: green;
+    border-radius: 15px 15px 15px 15px;
   }
   
   form label .sbs{
@@ -622,34 +624,39 @@ form fieldset {
   
   form input.submitBtn{
     border:none;
-    background-color:rgb(93, 95, 95);
+    background-color:green;
     color:white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin:0 0 2rem 2%;
     width: 80%;
     max-width: 15rem;
+    border-radius: 15px 15px 15px 15px;
   }
   
   form label.top input:required{
     border-left:red solid 6px;
-    
+     
   }
   
-  form label.top input:required:valid{
+  form label input:required:valid{
   border-left: rgb(91, 147, 252) solid 10px;
+  border-radius: 15px 15px 15px 15px; 
   }
   
-  
+ /*=========== Start text area=================*/ 
 textarea { 
-height: 100px;
+height: 90px;
 margin: 0;
 border: 2; 
-padding:.2rem 10%;
-border:3px solid #3f4044;    
+padding:.2rem 5%;
+border:2px solid #3f4044;    
 border-radius: 4px;
+color:black;
+border-radius: 15px 15px 15px 15px;
 }
-   
+  
+ /*=========== End text area=================*/  
   .re{
     color:black;
     font-family:'Edu NSW ACT Foundation',cursive;
@@ -670,12 +677,35 @@ border-radius: 4px;
   .submitBtn{
     
     cursor: pointer;
+    border-radius: 15px 15px 15px 15px; 
+  }
+
+
+  .submitBtn{
+  
+    cursor: pointer;
      
   }
+  
+  
+  .submitBtn:hover{
+    transition: 0.2s;
+    background-color: rgb(105, 105, 124);
+  }
+  
+
+
+
+
+
+
+
+
 
 form fieldset label{
     display: block;
     margin: 1rem;
+    
   }
 
 
@@ -685,9 +715,11 @@ form fieldset label{
     outline: none;
     transition: .1s;
     box-shadow: 0 0 15px 1px black;
-  
+    border-radius: 15px 15px 15px 15px;
   }
   
+
+
 
 .banner-flesh{
 margin-top: 50%;
@@ -713,15 +745,7 @@ margin-top: 50%;
   margin-right: 0;
   margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
+ 
 
 
 /*------------------------Start Top button styling-----------------*/
@@ -739,6 +763,7 @@ margin-top: 50%;
   cursor: pointer;
   padding: 10px;
   border-radius:100px 100px 12px 12px;
+  font-family:'Edu NSW ACT Foundation',cursive;
  
 }
 
@@ -750,21 +775,24 @@ margin-top: 50%;
 
 
 /*-----------------------End Top button styling-----------------*/
- 
+
+
+
+
 select
 {
 	width:230px;
-	height:35px;
+	height:40px;
  
-	border:#333 1px solid;
-	border-radius: 10px;
+	border:orange 5px solid;
+	border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 10px;
   border-radius: 5px;
 	text-align:left;
 	padding-left:2px;
 	font-size:18px;
-	background-color:forestgreen;
-	color:white;
+	background-color:green;
+	color:black;
 	font-weight:bold;
 	text-decoration:none;
   
@@ -784,4 +812,223 @@ select
 color: white;
   font-size:x-large ;
   text-shadow: 0 0 15px green; 
+  border-radius: 15px 15px 15px 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========Start Total number of specialty drinks styling=================*/
+
+
+#sc_element{
+  color: red;  
+}
+
+.sc{
+ grid-column: 3/5;
+ background-color:green;
+ text-align: center;
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-bottom: 0%;
+
+ border-radius: 20px 5px 20px 5px ;
+}
+
+div.brief{
+font-family:'Edu NSW ACT Foundation',cursive;
+font-size:large;
+margin-top: 4%;
+
+content: center;
+background-color: green;
+max-width: 50%;
+height: 100%;
+align-content: center;
+margin-left: 1em;
+border-radius: 15px;
+display: block;
+ 
+text-align: center;
+ 
+border-radius: 10px 5px 20px 5px ;
+}
+
+
+
+
+
+.sc  picture img {
+ height: 150px;
+ width: 100px;
+ object-fit: cover;
+ object-position: center;
+
+ grid-column: 1/2;
+ grid-row: 1/1;
+ margin: 10px;
+
+}
+
+.sco picture img:hover{
+ border-radius: 10px ;
+}
+
+picture img.in {
+ animation: img-come-in .0s;
+}
+
+@keyframes img-come-in {
+ from {
+     transform: scale(1);
+     opacity: 0;
+ }
+ to {
+     transform: scale(1);
+     opacity: 1;
+ }
+}
+
+
+/*===========End Total number of specialty drinks styling=================*/
+
+
+
+/*===========Sart view  styling=================*/
+
+
+
+.mini{
+  text-align: center;
+  background-color:green ;
+  width: 40%;
+  align-content: center;
+  margin-left: 20em;
+  border-radius: 15px;
+  color: orange;
+  font-family:'Edu NSW ACT Foundation',cursive;
+}
+
+/*===========End view  styling=================*/
+
+
+
+div.formh form{
+  background-color: green;
+  color: white;
+  margin: 1em  5vw;
+  padding: 2rem;
+ grid-column: 1/2;
+   
+  font-family:'Edu NSW ACT Foundation',cursive;
+  width: 90%;
+ 
+
+}
+
+
+
+.presentation{
+  font-family:'Edu NSW ACT Foundation',cursive;
+  color: white;
+  font-size: large;
+}
+
+
+
+
+div.sika form{
+  background-color: orange;
+  color: black;
+  margin: 1em  5vw;
+  padding: 2rem;
+ grid-column: 1/1;
+   
+  font-family:'Edu NSW ACT Foundation',cursive;
+  width: 74%;
+  border-radius: 20px 5px 20px 5px ;
+
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
