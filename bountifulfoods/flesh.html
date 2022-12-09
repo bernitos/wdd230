@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -52,47 +52,78 @@ id="topbutton" title="top">Top</button>
 
 
 
-
- 
-
+<!------------------------Start form ------------------------------------------------------------------------------>
 
 
+<div class="mayon">
 
+  <div class="sika">
 
-<h3 class="re">* Indicates required field</h3>
-<form method="get"action ="thankyou.html">
-<fieldset>
-<legend>CONTACT FORM</legend>
-<label class="top">Name*<input type="text" name="name"required></label>
-<label class="top">Email*<input type="email" name="email"placeholder="mailplace@example.com" required></label>
-<label class="top">Phone*<input type="tel" name="phone"placeholder="555 555 5554"></label>
-   <input type="text" name="date" id="t_date" value="" hidden> 
+      <form id="form">
 
-
-<h3>Choose the fruits you want to mix</h3>
-  <select  name="mix" id="select" multiple >
-               
- <option id="fr1">Grape</option>
-    <option id="fr2">Banana</option>
-    <option id="fr3">Mango</option>
-  </select>
-</div>		
-    
-    
-<label class="top">Question/Concern *<span class="required"><br></span><textarea type="textarea" name="Question/Concern" class="input-box" placeholder="Please write  your message  here." required></textarea></label>
-      
-</fieldset>
-
-<input type="submit" class="submitBtn" value="Submit" class="submitBtn">
-</form>
-
- 
+          <fieldset>
 
 
 
-<section>
-<div class="cards"></div>
-</section>
+              <label  for="firstname">Name*</label>
+              <input  class="input-box" type="text" name="" id="firstname" placeholder="First Name" required><br>
+
+              <label  for="email">Email*</label>
+              <input class="input-box" type="email" name="" id="email" placeholder="Email" required><br>
+
+              <label for="phone">phone*</label>
+              <input class="input-box" type="text" name="" id="phone" placeholder="Pone Number" required><br><br>
+
+              <label for="datea">Date*</label>
+              <input id="datea" type="date" name="" required>
+
+              <h3>Choose the fruits you want to mix</h3>
+              <select name="" id="select" multiple>
+
+                  <option id="fr1"></option>
+
+
+
+                  <option id="fr2"></option>
+
+
+
+                  <option id="fr3"></option>
+              </select>
+
+
+
+              <label for="phone">Speciality instruction for mix</label>
+              <textarea class="input-box" name="" id="instruction"
+                  placeholder="Briefly describe What you want here"></textarea><br><br>
+
+
+             
+              <input type="submit" class="submitBtn" id="Request Membership" class="submitBtn">
+
+
+
+
+
+              <h2 id="sc_element"></h2>
+
+
+          </fieldset>
+          
+          <div class="brief">
+              <h2>Your order details</h2>
+
+
+
+              <div id="result">
+              </div>
+          </div>
+      </form>
+
+  </div>
+
+<!------------------------End form ------------------------------------------------------------------------------>
+
 <div class="button-box2">
     <a class="flesh2" href="flesh.html">Mix your drink<br> Stay Healthy</a></div>
   <p class="psi">  Choose your drink</p>
@@ -106,6 +137,8 @@ id="topbutton" title="top">Top</button>
             
 <!------------------------End social------------------------------------------------------------------------------>
 </main>
+
+
 
 <!------------------------The header end---------------------->
 
@@ -127,6 +160,11 @@ id="topbutton" title="top">Top</button>
 <script src="scripts/script.js" defer></script>
 <script src="scripts/loading.js" defer></script>
 <script src="scripts/top.js" defer></script>
+<script src="scripts/fruits.js"></script>
+<script src="scripts/know.js"></script>
+<script src="scripts/form.js"></script>
+
+
 
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="scripts/script.js"></script>
