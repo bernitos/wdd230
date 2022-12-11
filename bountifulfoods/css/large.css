@@ -1,4 +1,4 @@
- /*==============================ROOT=======================*/
+/*==============================ROOT=======================*/
 
 :root {
 
@@ -959,10 +959,64 @@ div.sika form{
   border-radius: 20px 5px 20px 5px ;
 
 }
+ 
+
+
+
+/*=======================Start forecast styling============================*/
+
+
+section.forecast h3 {
+  text-align: center;
+  color: black; 
+}
+.days {
   
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 650px;
+}
 
 
 
+.days section {
+  border: solid 0.5px green;
+  padding: 0;
+   
+}
+.days div {
+  margin: 0 auto;
+ 
+}
+
+.days h4 {
+  text-shadow: 1px 1px 1px black;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0;
+}
+.days span {
+  color:green;
+  text-align: center;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+
+
+.weather-icon img {
+  display: block;
+  margin: 15px auto;
+  transform: scale(1.5);
+  filter: drop-shadow(1px 1px 1px green);
+}
+
+
+/*=======================End forecast styling============================*/
 
 
 
