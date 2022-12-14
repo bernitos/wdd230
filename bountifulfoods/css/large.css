@@ -96,8 +96,6 @@ body {
     max-width: 900px;
     margin: 0 auto;
     overflow-x: hidden;
-    box-shadow: 2px 2px  var(--dark-gray);
-    
     border-radius: 15px 15px 15px 15px ;
     background-color: #8d8787;
     border: solid 1px green;
