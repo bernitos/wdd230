@@ -231,15 +231,16 @@ footer a img {
 
 
 /*========================= Start Geoplace========================-*/
-    
+   
 section.contact-info {
   grid-column: 1/1;
   position: relative;
   left: 0rem;
-  width: 87%;
+  width: 92%;
+  height: 15%;
   padding: 1rem;
   display: grid;
-  background-color:whitesmoke;
+  background-color: green;
   grid-template-columns: 40% auto;
   box-shadow: 5px 5px 5px black;
   border-radius: 1px  10px 100px;
@@ -1023,6 +1024,38 @@ section.forecast h3 {
 
 
 
+
+/*=======================Sart about form and contact info styling============================*/
+
+  .about-form{
+    grid-column: 1/9;
+    margin: 3em;
+    background-color: orange;
+    font-family:'Edu NSW ACT Foundation',cursive;
+    border-radius: 20px;
+    width: 89%;
+    height: 68%;
+    
+    margin-top: 5em;
+    margin-left: 2em;
+    
+}
+
+  .about-form fieldset{
+      border-radius: 10px;
+      width: 95.5%;
+      height: 68%;
+  }
+  
+  
+  .submitBtn:hover{
+      transition: 0.2s;
+      background-color:white;
+      color:black;
+  }
+  
+
+/*=======================Sart about form and contact info styling============================*/
 
 
 
