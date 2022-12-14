@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -96,14 +96,45 @@
 
 
 
-<!----------------------------------Start Google map and  information------------------------------------------------->
+<!----------------------------------Start Google map and about form  information------------------------------------------------->
 
-
+<h1>Contact Us</h1>
 <section class="contact-info">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d106165.81039555994!2d-117.88355408379314!3d33.74304922651745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2035%20Jett%20Lane%2CSanta%20Ana%2CCA%2092705!5e0!3m2!1sfr!2sci!4v1670470061514!5m2!1sfr!2sci"
     
-    width="300" height="120" style="border-radius:10px 10px 10px 10px; margin-left:8%;  color: orange; "allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+
+    <form class="about-form" action="tahnk.html">
+
+        <fieldset >
+
+            <label for="firstname">Name*</label>
+            <input class="input-box" type="text" name="an" id="firstname" placeholder="First Name" required><br>
+
+            <label for="email">Email*</label>
+            <input class="input-box" type="email" name="an" id="email" placeholder="Email" required><br>
+
+            <label for="phone">phone*</label>
+            <input class="input-box" type="text" name="an" id="phone" placeholder="Pone Number"
+                required><br><br>
+
+            <label for="datea">Date*</label>
+            <input id="datea" type="date" name="an" required> <br><br>
+
+            <label class="top">Business Name*<span class="required"><br></span><textarea type="textarea" name="businessdescription" class="input-box" placeholder="Please describe your business here." required></textarea></label>
+      
+
+            <input class="submitBtn" type="submit" value="Contact Us">
+
+
+        </form>
+
+
+
+
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d106165.81039555994!2d-117.88355408379314!3d33.74304922651745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s2035%20Jett%20Lane%2CSanta%20Ana%2CCA%2092705!5e0!3m2!1sfr!2sci!4v1670470061514!5m2!1sfr!2sci"
     
+    width="300" height="120" style="border-radius:5px 10px 10px 10px ; border:solid 1px white; margin-left:8% ;margin-right:4%;  color: orange; "allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+
 <h3>Contact Information</h3>
 <ul class="fa-ul">
 <li>2035 Jett Lane,
@@ -111,7 +142,7 @@ Santa Ana,<br>
 CA 92705</li>
 <li>(714) 555-555</li>
 </ul>
-
+ 
 
 
 <!----------------------------------End Google map and  information------------------------------------------------->
